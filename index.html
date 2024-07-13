@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Virtual</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+<div class="section-container">
+    <section class="calc-container">
+        <div id="box-area">
+            <div id="result-box"></div>
+        </div>
+    
+        <table>
+            <th>
+                <tr>
+                    <td><input type="button" value="√" class="botoescima" id="botaoraiz"></td>
+                    <td><input type="button" value="MRC" class="botoescima" onclick="apagar()"></td>
+                    <td><input type="button" value="M-" class="botoescima"></td>
+                    <td><input type="button" value="M+" class="botoescima"></td>
+                    <td><input type="button" value="ON"class="botoescima ligar desligar" id="botaoligaredesligar"></td>
+                </tr>
+            </th>
+
+            <tr>
+                <td><input type="button" value="7" class="botoesbaixo" id="botaosete"></td>
+                <td><input type="button" value="8" class="botoesbaixo" id="botaooito"></td>
+                <td><input type="button" value="9" class="botoesbaixo" id="botaonove"></td>
+                <td><input type="button" value="%" class="botoesbaixo botaopreto" id="botaoporcentagem"></td>
+                <td><input type="button" value="GT" class="botoesbaixo botaopreto"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="4" class="botoesbaixo" id="botaoquatro"></td>
+                <td><input type="button" value="5" class="botoesbaixo" id="botaocinco"></td>
+                <td><input type="button" value="6" class="botoesbaixo" id="botaoseis"></td>
+                <td><input type="button" value="*" class="botoesbaixo botaopreto" id="botaomultiplicacao"></td>
+                <td><input type="button" value="/" class="botoesbaixo botaopreto" id="botaodivisao"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="1" class="botoesbaixo" id="botaoum"></td>
+                <td><input type="button" value="2" class="botoesbaixo" id="botaodois"></td>
+                <td><input type="button" value="3" class="botoesbaixo" id="botaotres"></td>
+                <td rowspan="2"><input type="button" value="+" class="botoesbaixo botaopreto" id="botaosoma"></td>
+                <td><input type="button" value="-" class="botoesbaixo botaopreto" id="botaosubtracao"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="0" class="botoesbaixo" id="botaozero"></td>
+                <td><input type="button" value="00" class="botoesbaixo" id="botaodoiszeros"></td>
+                <td><input type="button" value="." class="botoesbaixo" id="botaoponto"></td>
+                <td><input type="button" value="=" class="botoesbaixo botaopreto" id="botaoigual"></td>
+            </tr>
+        </table>
+
+
+        </section>
+
+
+
+    </section>
+
+
+</div>
+    
+<script src="conta.js"></script>
+
+</body>
+</html>
