@@ -20,6 +20,7 @@ To run this project locally, follow these steps:
 ---
 
 <h3>💻 Technologies Used</h3>
+
 - ## HTML
 - ## CSS
 - ## JavaScript
