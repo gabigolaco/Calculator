@@ -4,7 +4,7 @@
 
 # 📂 Features
 
-- **Basic Operations**: This basic calculator is able to realize operations like, **sum**, **subtraction**, **multiplication**, **division**, **percentage** and **root** of a number
+- **Basic Operations**: This basic calculator is able to realize operations lke, **sum**, **subtraction**, **multiplication**, **division**, **percentage** and **root** of a number
 - **Good UX**: Listeners that can be actived by clicking the buttons or typing on keyboard
 - **Accessibility** Works on Desktops, Phones and Tablets.
 
